@@ -17,6 +17,11 @@ void AMovingPlatform::BeginPlay()
 	Super::BeginPlay();
 	
 	StartLocation = GetActorLocation();
+
+	if(IsAntiClockWise)
+	{
+		RotationVelocity *= -1;
+	}
 }
 
 // Called every frame
@@ -24,24 +29,41 @@ void AMovingPlatform::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	MovePlatform(DeltaTime);
+	RotatePlatform(DeltaTime);
+}
+
+void AMovingPlatform::MovePlatform(float DeltaTime)
+{
 	// Moving Platform
 	FVector CurrentLocation = GetActorLocation();
 	CurrentLocation += PlatformVelocity * DeltaTime;
 	SetActorLocation(CurrentLocation);
 
 	// Make it go back and forth
-	float DistanceTraveled = FVector::Dist(StartLocation, CurrentLocation);
 
-	if(DistanceTraveled >= DistanceToMove)
+	if(ShouldPlatformReturn())
 	{
-		PlatformVelocity = -PlatformVelocity;
-
 		// This prevent the plaform to overshoot the location it's supposed to be
 		FVector MoveDirection = PlatformVelocity.GetSafeNormal();
 		StartLocation += MoveDirection * DistanceToMove;
 		SetActorLocation(StartLocation);
+
+		PlatformVelocity = -PlatformVelocity;
 	}
-
-
 }
 
+void AMovingPlatform::RotatePlatform(float DeltaTime)
+{
+	AddActorLocalRotation(RotationVelocity * DeltaTime);
+}
+
+bool AMovingPlatform::ShouldPlatformReturn() const
+{
+	return GetDistanceTraveled() >= DistanceToMove;
+}
+
+float AMovingPlatform::GetDistanceTraveled() const
+{
+	return FVector::Dist(StartLocation, GetActorLocation());
+}

@@ -4,7 +4,7 @@
 		{
 			"name": "Launch ObstacleAssault (Debug)",
 			"request": "launch",
-			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
 			"preLaunchTask": "ObstacleAssault Win64 Debug Build",
 			"args": [
 			],
@@ -20,7 +20,7 @@
 		{
 			"name": "Launch ObstacleAssault (DebugGame)",
 			"request": "launch",
-			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
 			"preLaunchTask": "ObstacleAssault Win64 DebugGame Build",
 			"args": [
 			],
@@ -36,7 +36,7 @@
 		{
 			"name": "Launch ObstacleAssault (Development)",
 			"request": "launch",
-			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame.exe",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\Binaries\\Win64\\UnrealGame.exe",
 			"preLaunchTask": "ObstacleAssault Win64 Development Build",
 			"args": [
 			],
@@ -52,7 +52,7 @@
 		{
 			"name": "Launch ObstacleAssault (Test)",
 			"request": "launch",
-			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
 			"preLaunchTask": "ObstacleAssault Win64 Test Build",
 			"args": [
 			],
@@ -68,7 +68,7 @@
 		{
 			"name": "Launch ObstacleAssault (Shipping)",
 			"request": "launch",
-			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
 			"preLaunchTask": "ObstacleAssault Win64 Shipping Build",
 			"args": [
 			],
@@ -87,7 +87,7 @@
 			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
 			"preLaunchTask": "ObstacleAssaultEditor Win64 Debug Build",
 			"args": [
-				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject"
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\ObstacleAssault.uproject"
 			],
 			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
 			"stopAtEntry": false,
@@ -104,7 +104,7 @@
 			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
 			"preLaunchTask": "ObstacleAssaultEditor Win64 DebugGame Build",
 			"args": [
-				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject"
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\ObstacleAssault.uproject"
 			],
 			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
 			"stopAtEntry": false,
@@ -121,7 +121,7 @@
 			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
 			"preLaunchTask": "ObstacleAssaultEditor Win64 Development Build",
 			"args": [
-				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject"
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\ObstacleAssault.uproject"
 			],
 			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
 			"stopAtEntry": false,
@@ -140,7 +140,7 @@
 			"args": [
 				"-projectfiles",
 				"-vscode",
-				"-project=D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject",
+				"-project=D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\ObstacleAssault.uproject",
 				"-game",
 				"-engine"
 			],

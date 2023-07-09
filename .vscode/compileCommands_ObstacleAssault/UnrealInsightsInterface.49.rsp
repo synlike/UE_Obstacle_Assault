@@ -1,5 +1,5 @@
 /FI "D:\Programmes\Unreal Engine\UE_5.0\Engine\Plugins\Developer\TraceDataFiltering\Intermediate\Build\Win64\UnrealEditor\Development\UnrealInsightsInterface\Definitions.UnrealInsightsInterface.h" 
-/FI "D:\Users\rocko\Desktop\Unreal Engine C++ Lessons\Section 3 - Obstacle Assault\ObstacleAssault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h" 
+/FI "D:\Users\rocko\Desktop\Unreal Engine C++ Lessons\Section 3 - Obstacle Assault\UE_Obstacle_Assault\Intermediate\Build\Win64\ObstacleAssaultEditor\Development\Slate\SharedPCH.Slate.ShadowErrors.h" 
 /I "D:\Programmes\Unreal Engine\UE_5.0\Engine\Source" 
 /I "D:\Programmes\Unreal Engine\UE_5.0\Engine\Plugins\Developer\TraceDataFiltering\Source\UnrealInsightsInterface\Private" 
 /I "D:\Programmes\Unreal Engine\UE_5.0\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\EditorStyle" 

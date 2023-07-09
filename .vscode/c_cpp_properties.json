@@ -3,12 +3,12 @@
         {
             "name": "ObstacleAssaultEditor Editor Win64 Development (ObstacleAssault)",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\.vscode\\compileCommands_ObstacleAssault.json"
+            "compileCommands": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\.vscode\\compileCommands_ObstacleAssault.json"
         },
         {
             "name": "Win32",
             "intelliSenseMode": "msvc-x64",
-            "compileCommands": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\.vscode\\compileCommands_Default.json"
+            "compileCommands": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\UE_Obstacle_Assault\\.vscode\\compileCommands_Default.json"
         }
     ],
     "version": 4
