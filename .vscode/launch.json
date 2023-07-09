@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch ObstacleAssault (Debug)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleAssault Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleAssault (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleAssault Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleAssault (Development)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "ObstacleAssault Win64 Development Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleAssault (Test)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "ObstacleAssault Win64 Test Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleAssault (Shipping)",
+			"request": "launch",
+			"program": "D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "ObstacleAssault Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleAssaultEditor (Debug)",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "ObstacleAssaultEditor Win64 Debug Build",
+			"args": [
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject"
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleAssaultEditor (DebugGame)",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "ObstacleAssaultEditor Win64 DebugGame Build",
+			"args": [
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject"
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch ObstacleAssaultEditor (Development)",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "ObstacleAssaultEditor Win64 Development Build",
+			"args": [
+				"D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject"
+			],
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "D:\\Programmes\\Unreal Engine\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\Users\\rocko\\Desktop\\Unreal Engine C++ Lessons\\Section 3 - Obstacle Assault\\ObstacleAssault\\ObstacleAssault.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "D:\\Programmes\\Unreal Engine\\UE_5.0"
+		}
+	]
+}
